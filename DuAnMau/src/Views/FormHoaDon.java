@@ -45,6 +45,7 @@ public class FormHoaDon extends javax.swing.JFrame {
         dtm.setColumnIdentifiers(header);
         listHoaDon = qlhdcts.getAll();
         //ChoBin
+        // Lấy dữ liệu trên git 
         listKH = qlkhs.getAll();
         listNV = qlnvs.getAll();
         loadCbbKH();
