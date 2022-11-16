@@ -44,6 +44,7 @@ public class FormHoaDon extends javax.swing.JFrame {
         String[] header = {"ID", "Khach Hang", "Nhan Vien", "Ma", "Ngay Tao", "Ngay Thanh Toan", "Ngay Ship", "Ngay Nhan", "Tinh Trang", "Nguoi Nhan", "Dia Chi", "SDT"};
         dtm.setColumnIdentifiers(header);
         listHoaDon = qlhdcts.getAll();
+        //ChoBin
         listKH = qlkhs.getAll();
         listNV = qlnvs.getAll();
         loadCbbKH();
