@@ -26,7 +26,7 @@ public class HybernateUtil {
 
     static {
         Configuration conf = new Configuration();
-
+        //Long oc cho
         Properties properties = new Properties();
         properties.put(Environment.DIALECT, "org.hibernate.dialect.SQLServerDialect");
         properties.put(Environment.DRIVER, "com.microsoft.sqlserver.jdbc.SQLServerDriver");
