@@ -48,6 +48,7 @@ public class FormHoaDon extends javax.swing.JFrame {
         // Lấy dữ liệu trên git 
         // demodemo
         // Tiên
+        //Dmm
         listKH = qlkhs.getAll();
         listNV = qlnvs.getAll();
         loadCbbKH();
